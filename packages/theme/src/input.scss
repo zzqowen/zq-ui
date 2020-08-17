@@ -141,7 +141,7 @@
     top: 0;
     text-align: center;
     color: $--input-icon-color;
-    transition: all .3s;
+    // transition: all .3s;
     pointer-events: none;
   }
 
@@ -156,7 +156,7 @@
     top: 0;
     text-align: center;
     color: $--input-icon-color;
-    transition: all .3s;
+    // transition: all .3s;
   }
 
   @include e(icon) {

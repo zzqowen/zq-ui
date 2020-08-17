@@ -1,11 +1,21 @@
 import Button from '../packages/button/index.js';
 import Icon from '../packages/icon/index.js';
 import Input from '../packages/input/index.js';
+import InputNumber from '../packages/input-number/index.js';
+import Form from '../packages/form/index.js';
+import FormItem from '../packages/form-item/index.js';
+import Switch from '../packages/switch/index.js';
+import Slider from '../packages/slider/index.js';
 
 const components = [
   Button,
   Icon,
-  Input
+  Input,
+  InputNumber,
+  Form,
+  FormItem,
+  Switch,
+  Slider
 ]
 
 const install = function (Vue, opts = {}) {
